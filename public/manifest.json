@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "1-components-store-func",
+  "name": "1-components-store-func",
   "icons": [
     {
       "src": "favicon.ico",
