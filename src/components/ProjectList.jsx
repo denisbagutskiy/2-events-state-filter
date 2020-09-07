@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './project-list.css';
 
 export function ProjectList({ projects }) {
     return (

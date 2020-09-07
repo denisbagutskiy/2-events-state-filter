@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Toolbar } from './Toolbar';
 import data from './projects.json';
-import './portfolio.css';
 import { ProjectList } from './ProjectList';
 
 function onlyUnique(value, index, self) { 

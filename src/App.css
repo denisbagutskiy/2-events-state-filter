@@ -1,15 +1,47 @@
+.portfolio {
+    display: block;
+    margin: 0 20%;
+}
+
 .project-list {
     display: block;
     column-count: 3;
     column-gap: 1em;
 }
 
-img {
+.project-list img {
     display: inline-block;
     margin: 0 0 1em;
     width: 100%;
 
     animation: bounce 3s linear .1s colorIt;
+}
+
+.toolbar {
+    margin: 1em 0;
+}
+
+.toolbar button {
+    box-sizing: border-box;
+    min-width: 60px;
+    height: 35px;
+    padding: 10px;
+    margin-right: 0.5em;
+
+    border: 1px solid;
+    background: #fff;
+    color: #000;
+    border-radius: 2px;
+    font-weight: 500;
+    transition: all 200ms linear;
+    outline: 0;
+
+    cursor: pointer;
+}
+
+.toolbar  button.active {
+    background: #545454;
+    color: #ffffff;
 }
 
 .fade-in {

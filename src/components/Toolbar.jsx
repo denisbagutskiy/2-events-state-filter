@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './toolbar.css';
 
 export function Toolbar({ filters, selected, onSelectFilter }) {
 
